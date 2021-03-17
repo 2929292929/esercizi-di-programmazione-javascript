@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var x = parseInt(13); //inserisci il numero di gatti
+var y = parseInt(3); //inserisci il numero dei gatti per ogni fila
+var z = Math.ceil(x/y);
+var w = z*y-x;
+console.log(z);
+console.log(w);

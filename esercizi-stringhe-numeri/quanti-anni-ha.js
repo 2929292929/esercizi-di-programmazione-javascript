@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var anno = parseInt(1915);
+var corr = parseInt(2021);
+var eta = corr - anno;
+var quota = 100 - eta;
+console.log('La persona di anni'$(eta) 'gli mancano' $(quota) 'per arrivare a quota 100'); 
